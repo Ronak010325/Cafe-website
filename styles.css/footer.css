@@ -1,0 +1,84 @@
+footer {
+    background-color: #eee4da;
+    margin-top: 40px;
+    color: #8d623f;
+}
+
+footer span {
+    font-size: 0.9rem;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 50px 130px;
+    gap: 10px;
+}
+
+.row1 .follow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 23px;
+}
+
+.row1 .title {
+    font-size: 1.5rem;
+    padding-left: 3px;
+}
+
+.row1 .call {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 35px;
+}
+
+.row1 .follow .icons {
+    display: flex;
+    gap: 10px;
+    width: 120px;
+}
+
+.icons svg {
+    flex: 1;
+    width: 30px;
+    height: 30px;
+}
+
+footer hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 10px 130px;
+    padding-right: 80px;
+    gap: 10px;
+}
+
+.row2 svg {
+    width: 18px;
+    height: 18px;
+}
+
+.copywrite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copywrite .aling {
+    display: flex;
+    gap: 5px;
+}
+
+.row2 p {
+    flex-basis: 180px;
+}
+
+.row2 .terms {
+    flex-basis: 250px;
+}
