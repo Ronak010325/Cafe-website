@@ -10,7 +10,6 @@ header {
 .row {
     display: flex;
     padding: 20px 130px;
-    color: #8d623f;
     height: 70%;
 }
 
@@ -33,16 +32,21 @@ header {
     gap: 50px;
 }
 
-.ul li {
-    display: inline;
-    font-size: 1.6rem;
+.ul a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    text-decoration: none;
+    color: #8d623f;
 }
 
-.ul li button {
+.ul li {
+    display: inline;
+    font-size: 1.6rem;
+}
+
+.ul a li button {
     padding: 10px 40px;
     border-radius: 100px;
     border: 2px solid #8d623f;
@@ -52,7 +56,7 @@ header {
     cursor: pointer;
 }
 
-.ul li button:hover {
+.ul a li button:hover {
     background-color: #eee4da;
     color: #8d623f;
 }
