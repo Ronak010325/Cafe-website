@@ -4,6 +4,7 @@ header {
     width: 100%;
     border-top: 20px solid white;
     background-color: #eee4da;
+    cursor: default;
 }
 
 .row {
@@ -38,6 +39,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
 }
 
 .ul li button {
@@ -47,6 +49,7 @@ header {
     background-color: #8d623f;
     color: #eee4da;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .ul li button:hover {
