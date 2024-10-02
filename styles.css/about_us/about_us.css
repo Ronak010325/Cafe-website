@@ -1,0 +1,9 @@
+.about_us {
+    padding-left: 130px;
+    padding-right: 100px;
+    height: 107vh;
+}
+
+.about_us .temp {
+    display: flex;
+}
