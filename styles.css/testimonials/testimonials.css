@@ -44,10 +44,41 @@ footer {
     width: 75%;
 }
 
-.card img {
-    width: 140px;
-    height: 140px;
+.card .center {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.card .center div {
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
     border-radius: 100px;
+}
+
+.card .angela div {
+    background: url("../../images/testimonials/angela.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card .robin div {
+    background: url("../../images/testimonials/robin.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card .emma div {
+    background: url("../../images/testimonials/emma.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card .david div {
+    background: url("../../images/testimonials/David.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 .card h1 {

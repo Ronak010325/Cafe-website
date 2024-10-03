@@ -1,0 +1,139 @@
+main h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-top: 17px;
+    color: #8d623f;
+}
+
+main hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu{
+    display: flex;
+    height: fit-content;
+}
+
+.col {
+    padding: 40px 30px 60px 30px;
+    flex: 1;
+}
+
+.menu .first {
+    border-right: 2px solid #8d623f;
+    display: grid;
+    grid-template-rows: 1fr 0.8fr;
+    gap: 100px;
+}
+
+.menu .second {
+    display: grid;
+    grid-template-rows: 0.6fr 1fr;
+    gap: 100px;
+}
+
+.first_card {
+    flex: 1;
+}
+
+.second_card {
+    flex: 1;
+}
+
+/* -----------------------------------card-template-------------------------------------- */
+
+.card {
+    padding: 40px 70px 0 40px;
+}
+
+.card .punch {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.card .title {
+    display: flex;
+    justify-content: center;
+}
+
+.card .title div {
+    width: fit-content;
+    font-size: 2.2rem;
+    border-radius: 25px;
+    padding: 10px 80px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-top: 35px;
+}
+
+.card ul li {
+    font-size: 2.2rem;
+    display: flex;
+    gap: 30px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.card ul li div {
+    flex: 1;
+}
+
+/* ----------------------------specific cards------------------------------- */
+
+.coffee ul {
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+.ice_blended ul {
+    margin-bottom: 35px;
+}
+
+.quick_bites ul {
+    margin-bottom: 50px;
+}
+
+.quick_bites {
+    flex-grow: 0;
+}
+
+.desserts ul {
+    margin-bottom: 35px;
+}
+
+.desserts .title {
+    margin-top: 50px;
+}
+
+.white {
+    background-color: #eee4da;
+    color: #8d623f;
+}
+
+.white .title div {
+    border: 2px solid #8d623f;
+}
+
+.brown {
+    background-color: #8d623f;
+    color: #eee4da;
+}
+
+.brown .title div {
+    border: 2px solid #eee4da;
+}
