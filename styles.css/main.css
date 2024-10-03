@@ -2,6 +2,7 @@ main {
     flex: 1;
     padding-top: 135px;
     height: fit-content;
+    cursor: default;
 }
 
 html,body {
