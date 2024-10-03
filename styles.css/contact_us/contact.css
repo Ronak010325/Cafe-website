@@ -14,11 +14,11 @@ main .title {
 .flex {
     display: flex;
     flex-direction: column;
-    gap: 130px;
+    gap: 70px;
 }
 
 form {
-    padding:120px 10px 0 10px;
+    padding:90px 10px 0 10px;
 }
 
 form label {
