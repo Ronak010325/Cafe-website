@@ -17,18 +17,19 @@ footer span {
 
 .row1 .logo {
     flex: 1;
+    cursor: default;
 }
 
 .row1 .title {
     font-size: 1.3rem;
     padding-left: 3px;
+    cursor: default;
 }
 
 .row1 .follow {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* padding-left: 23px; */
     width: fit-content;
 }
 
@@ -49,6 +50,11 @@ footer span {
     flex: 1;
     width: 25px;
     height: 25px;
+    cursor: pointer;
+}
+
+.icons svg:hover {
+    padding-top: 10px;
 }
 
 footer hr {
@@ -73,6 +79,7 @@ footer hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: default;
 }
 
 .copywrite .aling {
@@ -83,4 +90,5 @@ footer hr {
 .row2 p {
     width: fit-content;
     font-size: 15px;
+    cursor: pointer;
 }

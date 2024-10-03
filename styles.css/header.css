@@ -56,7 +56,7 @@ header {
     cursor: pointer;
 }
 
-.ul a li button:hover {
+.ul a li button:active {
     background-color: #eee4da;
     color: #8d623f;
 }
