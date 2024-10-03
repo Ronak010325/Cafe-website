@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brew Bliss Cafe</title>
+    <title>Contact</title>
 
     <link href="./styles.css/header.css" rel="styleSheet">
     <link href="./styles.css/main.css" rel="styleSheet">
@@ -30,6 +30,40 @@
             </div>
         </header>
         <main>
+            <h1 class="title">Contact us</h1>
+            <hr width="100%" color="#eee4da"/>
+            <form action="/contact" method="POST">
+                <div class="flex">
+                <div class="name">    
+                    <label>Your name</label>
+                    <div class="container">
+                        <input type="text" placeholder="First">
+                        <input type="text" placeholder="Last">
+                    </div>
+                </div>
+                <div class="email">
+                    <label>E-mail</label>
+                    <div class="container">
+                        <input type="email" placeholder="Enter your e-mail here">
+                    </div>
+                </div>
+                <div class="phone">
+                    <label>Phone</label>
+                    <div class="container">
+                        <input type="number" placeholder="Enter your phone number" maxlength="10">
+                    </div>
+                </div>
+                <div class="message">
+                    <label>Your message</label>
+                    <div class="container">
+                        <textarea placeholder="Enter your message here" rows="9"></textarea>
+                    </div>
+                </div>
+                </div>
+                <div class="submit">
+                    <input type="button" value="submit" class="button">
+                </div>
+            </form>
         </main>
         <footer>
             <div class="row1">
